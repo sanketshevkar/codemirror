@@ -1,0 +1,70 @@
+2021-04-25T16:19:58.630876694 0.306523s notice: Recursively removing directory /home/user/Documents/codemirror/rethinkdb_data/tmp
+2021-04-25T16:19:58.667257650 0.342909s notice: Initializing directory /home/user/Documents/codemirror/rethinkdb_data
+2021-04-25T16:19:58.667439273 0.343084s info: Creating a default database for your convenience. (This is because you ran 'rethinkdb' without 'create', 'serve', or '--join', and the directory '/home/user/Documents/codemirror/rethinkdb_data' did not already exist or is empty.)
+2021-04-25T16:19:58.667526703 0.343172s notice: Running rethinkdb 2.4.1~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2021-04-25T16:19:58.693253956 0.368905s notice: Running on Linux 5.4.0-70-generic x86_64
+2021-04-25T16:19:58.693445902 0.369091s notice: Loading data from directory /home/user/Documents/codemirror/rethinkdb_data
+2021-04-25T16:19:59.145676394 0.821324s info: Automatically using cache size of 832 MB
+2021-04-25T16:19:59.198082392 0.873728s notice: Listening for intracluster connections on port 29015
+2021-04-25T16:19:59.277297741 0.952943s notice: Listening for client driver connections on port 28015
+2021-04-25T16:19:59.277392738 0.953037s notice: Administrative HTTP connections are disabled.
+2021-04-25T16:19:59.277397920 0.953042s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-04-25T16:19:59.277403080 0.953048s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-04-25T16:19:59.277408031 0.953053s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-04-25T16:19:59.277412829 0.953057s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-04-25T16:19:59.277422674 0.953067s notice: Server ready, "Dell_Pc_kzc" 10b7451d-acb6-48c7-92a7-fe098086766e
+2021-04-25T16:20:05.074136601 6.749781s info: Table be4bc562-b5e0-47b2-aaa6-a365558ccb73: Starting a new Raft election for term 1.
+2021-04-25T16:20:05.074429193 6.750074s info: Table be4bc562-b5e0-47b2-aaa6-a365558ccb73: Added replica on this server.
+2021-04-25T16:20:05.141403996 6.817049s info: Table be4bc562-b5e0-47b2-aaa6-a365558ccb73: This server is Raft leader for term 1. Latest log index is 0.
+2021-04-26T19:55:34.089552786 0.342927s notice: Running rethinkdb 2.4.1~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2021-04-26T19:55:34.149045760 0.402422s notice: Running on Linux 5.4.0-72-generic x86_64
+2021-04-26T19:55:34.149248752 0.402619s notice: Loading data from directory /home/user/Documents/codemirror/rethinkdb_data
+2021-04-26T19:55:34.385180850 0.638559s info: Automatically using cache size of 376 MB
+2021-04-26T19:55:34.431161079 0.684532s notice: Listening for intracluster connections on port 29015
+2021-04-26T19:55:34.633620847 0.886991s notice: Listening for client driver connections on port 28015
+2021-04-26T19:55:34.633772851 0.887143s notice: Administrative HTTP connections are disabled.
+2021-04-26T19:55:34.633781868 0.887152s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-04-26T19:55:34.633788453 0.887158s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-04-26T19:55:34.633888629 0.887259s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-04-26T19:55:34.633895166 0.887265s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-04-26T19:55:34.633930773 0.887301s notice: Server ready, "Dell_Pc_kzc" 10b7451d-acb6-48c7-92a7-fe098086766e
+2021-04-26T19:55:36.463708321 2.717079s info: Table be4bc562-b5e0-47b2-aaa6-a365558ccb73: Starting a new Raft election for term 2.
+2021-04-26T19:55:36.552066060 2.805436s info: Table be4bc562-b5e0-47b2-aaa6-a365558ccb73: This server is Raft leader for term 2. Latest log index is 3.
+2021-04-26T21:05:59.031078265 1583.565091s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2021-04-26T21:05:59.031090571 1583.565103s notice: Shutting down client connections...
+2021-04-26T21:05:59.031191792 1583.565204s notice: All client connections closed.
+2021-04-26T21:05:59.031195787 1583.565208s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-04-26T21:05:59.167555214 1583.701568s notice: Storage engine shut down.
+2021-04-26T21:06:02.944245040 0.101436s notice: Running rethinkdb 2.4.1~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2021-04-26T21:06:02.963644335 0.120828s notice: Running on Linux 5.4.0-72-generic x86_64
+2021-04-26T21:06:02.963835486 0.121011s notice: Loading data from directory /home/user/Documents/codemirror/rethinkdb_data
+2021-04-26T21:06:03.133841426 0.291020s info: Automatically using cache size of 476 MB
+2021-04-26T21:06:03.134862455 0.292038s notice: Listening for intracluster connections on port 29015
+2021-04-26T21:06:03.202920151 0.360096s notice: Listening for client driver connections on port 28015
+2021-04-26T21:06:03.203249687 0.360425s notice: Listening for administrative HTTP connections on port 8080
+2021-04-26T21:06:03.203253192 0.360429s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-04-26T21:06:03.203255929 0.360431s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-04-26T21:06:03.203275329 0.360451s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-04-26T21:06:03.203281576 0.360457s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-04-26T21:06:03.203296052 0.360472s notice: Server ready, "Dell_Pc_kzc" 10b7451d-acb6-48c7-92a7-fe098086766e
+2021-04-26T21:06:04.510751386 1.667928s info: Table be4bc562-b5e0-47b2-aaa6-a365558ccb73: Starting a new Raft election for term 3.
+2021-04-26T21:06:04.612205419 1.769381s info: Table be4bc562-b5e0-47b2-aaa6-a365558ccb73: This server is Raft leader for term 3. Latest log index is 7.
+2021-04-26T21:46:17.521353227 2413.825058s notice: Removing file /home/user/Documents/codemirror/rethinkdb_data/be4bc562-b5e0-47b2-aaa6-a365558ccb73
+2021-04-26T21:46:17.521365902 2413.825068s info: Table be4bc562-b5e0-47b2-aaa6-a365558ccb73: Deleted the table.
+2021-04-26T21:46:28.465397887 2424.769101s info: Table 97d30d40-1e16-4762-8f28-f6a6975dac6d: Added replica on this server.
+2021-04-26T21:46:28.465494083 2424.769196s info: Table 97d30d40-1e16-4762-8f28-f6a6975dac6d: Starting a new Raft election for term 1.
+2021-04-26T21:46:28.513668425 2424.817371s info: Table 97d30d40-1e16-4762-8f28-f6a6975dac6d: This server is Raft leader for term 1. Latest log index is 0.
+2021-04-26T22:18:41.498122692 0.343070s notice: Running rethinkdb 2.4.1~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2021-04-26T22:18:41.514749945 0.359694s notice: Running on Linux 5.4.0-72-generic x86_64
+2021-04-26T22:18:41.514864090 0.359804s notice: Loading data from directory /home/user/Documents/codemirror/rethinkdb_data
+2021-04-26T22:18:41.941061113 0.786005s info: Automatically using cache size of 1012 MB
+2021-04-26T22:18:42.039216903 0.884157s notice: Listening for intracluster connections on port 29015
+2021-04-26T22:18:42.422418437 1.267359s notice: Listening for client driver connections on port 28015
+2021-04-26T22:18:42.422707789 1.267648s notice: Listening for administrative HTTP connections on port 8080
+2021-04-26T22:18:42.422729214 1.267669s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-04-26T22:18:42.422733103 1.267673s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-04-26T22:18:42.422736565 1.267677s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-04-26T22:18:42.422748829 1.267689s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-04-26T22:18:42.422753387 1.267693s notice: Server ready, "Dell_Pc_kzc" 10b7451d-acb6-48c7-92a7-fe098086766e
+2021-04-26T22:18:43.830066402 2.675007s info: Table 97d30d40-1e16-4762-8f28-f6a6975dac6d: Starting a new Raft election for term 2.
+2021-04-26T22:18:43.938664480 2.783605s info: Table 97d30d40-1e16-4762-8f28-f6a6975dac6d: This server is Raft leader for term 2. Latest log index is 2.
