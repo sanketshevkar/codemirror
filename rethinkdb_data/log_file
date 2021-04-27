@@ -68,3 +68,17 @@
 2021-04-26T22:18:42.422753387 1.267693s notice: Server ready, "Dell_Pc_kzc" 10b7451d-acb6-48c7-92a7-fe098086766e
 2021-04-26T22:18:43.830066402 2.675007s info: Table 97d30d40-1e16-4762-8f28-f6a6975dac6d: Starting a new Raft election for term 2.
 2021-04-26T22:18:43.938664480 2.783605s info: Table 97d30d40-1e16-4762-8f28-f6a6975dac6d: This server is Raft leader for term 2. Latest log index is 2.
+2021-04-27T09:54:51.145537769 0.331844s notice: Running rethinkdb 2.4.1~0bionic (CLANG 6.0.0 (tags/RELEASE_600/final))...
+2021-04-27T09:54:51.181828820 0.368130s notice: Running on Linux 5.4.0-72-generic x86_64
+2021-04-27T09:54:51.181924126 0.368222s notice: Loading data from directory /home/user/Documents/codemirror/rethinkdb_data
+2021-04-27T09:54:51.474700893 0.661005s info: Automatically using cache size of 682 MB
+2021-04-27T09:54:51.520439957 0.706738s notice: Listening for intracluster connections on port 29015
+2021-04-27T09:54:51.926411775 1.112710s notice: Listening for client driver connections on port 28015
+2021-04-27T09:54:51.928213271 1.114511s notice: Listening for administrative HTTP connections on port 8080
+2021-04-27T09:54:51.928219495 1.114517s notice: Listening on cluster addresses: 127.0.0.1, ::1
+2021-04-27T09:54:51.928267385 1.114565s notice: Listening on driver addresses: 127.0.0.1, ::1
+2021-04-27T09:54:51.928273866 1.114571s notice: Listening on http addresses: 127.0.0.1, ::1
+2021-04-27T09:54:51.928303876 1.114602s notice: To fully expose RethinkDB on the network, bind to all addresses by running rethinkdb with the `--bind all` command line option.
+2021-04-27T09:54:51.928323670 1.114621s notice: Server ready, "Dell_Pc_kzc" 10b7451d-acb6-48c7-92a7-fe098086766e
+2021-04-27T09:54:53.709308718 2.895606s info: Table 97d30d40-1e16-4762-8f28-f6a6975dac6d: Starting a new Raft election for term 3.
+2021-04-27T09:54:53.797487040 2.983786s info: Table 97d30d40-1e16-4762-8f28-f6a6975dac6d: This server is Raft leader for term 3. Latest log index is 6.

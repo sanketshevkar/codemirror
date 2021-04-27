@@ -3,6 +3,15 @@ var express = require("express");
 var app = require("express")();
 var http = require("http").Server(app);
 var io = require("socket.io")(http);
+var cors = require('cors');
+var bodyParser = require('body-parser');
+
+app.use(cors())
+// configure the app to use bodyParser()
+app.use(bodyParser.urlencoded({
+  extended: true
+}));
+app.use(bodyParser.json());
 
 // Setup Database
 r.connect({ host: "localhost", port: 28015 }, function(err, conn) {
@@ -40,7 +49,6 @@ r.connect({ host: "localhost", port: 28015 }, function(err, conn) {
         )
         .run(conn, function(err, res) {
           if (err) throw err;
-          //console.log(JSON.stringify(res, null, 2));
         });
     });
     r
@@ -55,17 +63,34 @@ r.connect({ host: "localhost", port: 28015 }, function(err, conn) {
       });
   });
 
-  app.get("/getData/:id", function(req, res, next) {
+  app.post("/getData/:id", async function(request, response, next) {
+    let resultObj = null;
     r
       .table("edit")
-      .get(req.params.id)
+      .get(request.params.id)
       .run(conn, function(err, result) {
+        resultObj = result;
         if (err) throw err;
-        res.send(result);
-        //return next(result);
+        if(resultObj === null){
+          r
+            .table("edit")
+            .insert(
+              request.body,
+              { conflict: "update" }
+            )
+            .run(conn, function(err, res) {
+              if (err) throw err;
+              resultObj = request.body;
+              response.send(resultObj);
+            });
+        }else{
+          response.send(resultObj);
+        }
       });
   });
 });
+
+
 
 // Serve HTML
 app.get("/", function(req, res) {
