@@ -82,3 +82,8 @@
 2021-04-27T09:54:51.928323670 1.114621s notice: Server ready, "Dell_Pc_kzc" 10b7451d-acb6-48c7-92a7-fe098086766e
 2021-04-27T09:54:53.709308718 2.895606s info: Table 97d30d40-1e16-4762-8f28-f6a6975dac6d: Starting a new Raft election for term 3.
 2021-04-27T09:54:53.797487040 2.983786s info: Table 97d30d40-1e16-4762-8f28-f6a6975dac6d: This server is Raft leader for term 3. Latest log index is 6.
+2021-04-27T13:38:14.780114702 12415.493347s notice: Server got SIGINT from pid 0, uid 0; shutting down...
+2021-04-27T13:38:14.812276966 12415.524858s notice: Shutting down client connections...
+2021-04-27T13:38:14.824783401 12415.537364s notice: All client connections closed.
+2021-04-27T13:38:14.824792692 12415.537372s notice: Shutting down storage engine... (This may take a while if you had a lot of unflushed data in the writeback cache.)
+2021-04-27T13:38:15.747829649 12416.460410s notice: Storage engine shut down.
