@@ -6,7 +6,7 @@ var io = require("socket.io")(http);
 var cors = require('cors');
 var bodyParser = require('body-parser');
 
-app.use(cors())
+app.use(cors());
 // configure the app to use bodyParser()
 app.use(bodyParser.urlencoded({
   extended: true
